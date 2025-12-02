@@ -1,0 +1,172 @@
+.container-box{
+    background: rgb(246, 248, 249);
+    border-radius: 20vw;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+.search-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vw;
+    
+}
+.logo-nav {
+    height: 130px;     /* kecil seperti logo Netflix */
+    width: auto;
+}
+
+.navbar {
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    background: transparent;
+}
+
+.netflix-box {
+    width: 600px;        /* Netflix size */
+    min-height: 300px;   /* tinggi box asli */
+    padding: 40px;
+
+    border-radius: 32px;
+    background: linear-gradient(180deg, #14172b, #1d0f1d);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+
+    position: relative;
+    color: #eee;
+}
+
+/* Ikon */
+.netflix-icon {
+    position: absolute;
+    width: 90px;
+    bottom: 20px;
+    right: 20px;
+}
+
+.netflix-box {
+    width: 100%;
+    min-height: 260px;
+    padding: 35px;
+    border-radius: 32px;
+
+    background: linear-gradient(180deg, #14172b, #1d0f1d);
+    color: #eee;
+
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+
+    position: relative;
+    overflow: hidden;
+}
+
+/* Title dalam box */
+.netflix-box h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: white;
+}
+
+
+.netflix-box p {
+    font-size: 15px;
+    line-height: 1.5;
+    max-width: 85%;
+}
+
+
+.netflix-box img {
+    position: absolute;
+    width: 75px;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0.9;
+}
+
+
+@media (max-width: 576px) {
+    .netflix-box {
+        min-height: 220px;
+        padding: 28px;
+    }
+
+    .netflix-box img {
+        width: 60px;
+    }
+}
+
+.movie-card {
+    background: #0e0e0e;              
+    border-radius: 18px;               
+    overflow: hidden;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.4);
+    transition: 0.3s ease;
+    height: 100%;
+    border: 1px solid rgba(255,255,255,0.05);
+}
+
+.movie-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(255, 0, 0, 0.25); 
+}
+
+.movie-img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.movie-info {
+    padding: 15px;
+    color: #ddd;
+}
+
+.movie-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.footer {
+    background: #0d0d0d;
+    color: #bbb;
+    border-top: 1px solid rgba(255, 0, 0, 0.3);
+}
+
+.footer-logo {
+    font-size: 28px;
+    font-weight: 800;
+    color: #ff1e1e;
+}
+
+.footer-text {
+    max-width: 500px;
+    font-size: 15px;
+    margin-top: 10px;
+    color: #ccc;
+}
+
+.footer-links {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #aaa;
+    transition: 0.2s;
+}
+
+.footer-links a:hover {
+    color: #ff3d3d;
+}
+
+.footer-copy {
+    color: #777;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+}
